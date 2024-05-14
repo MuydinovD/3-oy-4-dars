@@ -4,9 +4,13 @@
     box-sizing: border-box;
 }
 
+.body{
+    font-family: 'SF Pro Text';
+}
+
 .container{
     width: 100%;
-    max-width: 1240px;
+    max-width: 1272px;
     margin: 0 auto;
 }
 
@@ -180,7 +184,6 @@ line-height: 26px;
 
 .filtr{
     margin-top: 32px;
-    margin-left: 43px;
     width:288px;
     height:460px;
     padding: 24px 0px 0px 0px;
@@ -312,72 +315,22 @@ line-height: 26px;
 }
 
 .cards__container{
-    display: flex;
-}
-
-.card-1{
-    margin-top: 32px;
-    margin-left: 30px;
-    width: 288px;
-    height: 320px;
-    background-color: rgb(235, 241, 241);
-    
-}
-
-.tepa h3{
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 16.71px;
-    padding-top: 2.5px;
-}
-
-.tepa{
-    display: flex;
-    padding-left: 12px;
-    padding-top: 17px;
-    gap: 8px;
-    width: 127px;
-    height: 22px;
-    
-}
-
-.sale{
-    width: 51px;
-    height: 30px;
-    padding: 8px 10px 8px 10px;
-    gap: 10px;
-    background-color: white;
-    margin-top: 12px;
-    margin-right: 12px;
-}
-
-.sale h3{
-    font-size: 12px;
-    font-weight: 500;
-    line-height: 14.32px;
-}
-
-.tepasi{
+    width: 1272px;
     display: flex;
     justify-content: space-between;
-
-}
-
-.image{
-    margin-left: 20px;
 }
 
 .footer{
     width: 288px;
     height: 133px;
     box-shadow: 1px -1px 0px 1px rgba(234, 234, 234, 1) inset;
-    
-    
 }
 
 .footer-1 img{
     padding-top: 2.5px;
     margin-left: 12px;
+    width: 104px;
+    height: 16px;
 }
 
 .footer-1{
@@ -423,10 +376,127 @@ line-height: 26px;
     line-height: 21.48px;
     color: rgba(69, 79, 91, 1);
     padding-top: 1.5px;
-    
+        
 }
 
 .card{
     display: flex;
     justify-content: space-between;
+    width:924px;
+    height:1932px;
+    margin-top: 32px;
+    margin-left: 30px;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.yaqinda__container h2{
+    font-family: 'SF Pro Text';
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 62px;
+    padding-top: 100px;
+    padding-bottom: 64px;
+}
+
+.hero__container{
+    width: 1240px;
+    height: 564px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title h3{
+    font-family: 'SF Pro Text';
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 42px;
+    margin-top: 96px;
+    padding-top: 81px;
+}
+.title p{
+    padding-top: 24px;
+    font-family: 'SF Pro Text';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    color: rgba(69, 79, 91, 1);
+    
+}
+
+.black-ruchka img{
+    width: 605px;
+    height: 564px;
+    margin-top: 96px;
+}
+
+.white-thing img{
+    width: 605px;
+    height: 564px;
+    margin-top: 178px;  
+}
+
+.titles h3{
+    font-family: 'SF Pro Text';
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 42px;
+    margin-top: 96px;
+    padding-top: 165px;
+}
+.titles p{
+    padding-top: 24px;
+    font-family: 'SF Pro Text';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    color: rgba(69, 79, 91, 1);
+    
+}
+
+.wrapper{
+    padding-top: 280px;
+}
+
+.wrapper__container{
+    margin-top: 100px;
+    width: 1440px;
+    height: 332px;
+    background-color: rgba(242, 248, 255, 1);
+}
+
+.wrapper__container h2{
+    font-family: 'SF Pro Text';
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 62px;
+    text-align: center;
+    padding-top: 64px;
+    padding-bottom: 24px;
+}
+
+.wrapper__container p{
+    font-family: 'SF Pro Text';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    color: rgba(69, 79, 91, 1);
+    padding-bottom: 24px;
+}
+
+.wrapper__container a{
+    width: 748px;
+    height: 50px;
+    margin-left: 235px;
+}
+
+.footer__container img{
+    margin-left: 30px;
+    margin-top: 0px;
 }
